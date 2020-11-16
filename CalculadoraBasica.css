@@ -4,7 +4,7 @@ h1{
 }
 
 /*Especificidad -> 1*/
-form {
+div {
     width: 100%;
     max-width: 25em;
     text-align: center;
