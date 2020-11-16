@@ -1,0 +1,44 @@
+/*Especificidad -> 1*/
+h1{
+    text-align: center;
+}
+
+/*Especificidad -> 1*/
+form {
+    width: 100%;
+    max-width: 25em;
+    text-align: center;
+    border: solid 0.063em #c2c2c2;
+    padding-bottom: 0.625em;
+    margin: auto;
+    background: #fafafa;
+  }
+  
+  /*Especificidad -> 11*/
+  input[type=textfield] {
+      width: 75%;
+      padding: 1em 2em;
+      font-size: 1em;
+      margin: 0.5em 0em;
+      border: 0.063em solid silver;
+      border-radius: 0.063em;
+      text-align: left;
+      color: #333;
+      background: #ccc;
+  }
+
+  /*Especificidad -> 11*/
+  input[type=button], input[type=submit], input[type=reset] {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 1em 1em;
+      font-size: 1em;
+      min-width: 21%;
+      text-decoration: none;
+      margin: 0.25em 0.125em;
+      cursor: pointer;
+  }
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #333;
+  }
