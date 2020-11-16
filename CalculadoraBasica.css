@@ -13,9 +13,9 @@ form {
     margin: auto;
     background: #fafafa;
   }
-  
+
   /*Especificidad -> 11*/
-  input[type=textfield] {
+  input[type=text] {
       width: 75%;
       padding: 1em 2em;
       font-size: 1em;

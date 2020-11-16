@@ -53,13 +53,15 @@ class CalculadoraBasica {
         }
     }
     mMenos(){
+        var num = Number.parseInt(document.getElementById("pantalla").value);
         if(!isNaN(document.getElementById("pantalla").value)){  //si es un numero
-            this.valorEnMemoria -= document.getElementById("pantalla").value;   //restarselo a la memoria
+            this.valorEnMemoria = eval(this.valorEnMemoria + "-" + document.getElementById("pantalla").value);   //restarselo a la memoria
         }
     }
     mMas(){
+        var num = Number.parseInt(document.getElementById("pantalla").value);
         if(!isNaN(document.getElementById("pantalla").value)){  //si es un numero
-            this.valorEnMemoria += document.getElementById("pantalla").value;   //sumarselo a la memoria
+            this.valorEnMemoria = eval(this.valorEnMemoria + "+" + document.getElementById("pantalla").value);   //sumarselo a la memoria
         }
     }
     borrar(){
