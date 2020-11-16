@@ -8,10 +8,9 @@ div {
     width: 100%;
     max-width: 25em;
     text-align: center;
-    border: solid 0.063em #c2c2c2;
     padding-bottom: 0.625em;
     margin: auto;
-    background: #fafafa;
+    background: black;
   }
 
   /*Especificidad -> 11*/
@@ -24,7 +23,7 @@ div {
       border-radius: 0.063em;
       text-align: left;
       color: #333;
-      background: #ccc;
+      background: white;
   }
 
   /*Especificidad -> 11*/
