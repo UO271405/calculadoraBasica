@@ -38,6 +38,3 @@ div {
       margin: 0.25em 0.125em;
       cursor: pointer;
   }
-  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
-    background-color: #333;
-  }
